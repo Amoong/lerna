@@ -1,0 +1,25 @@
+{
+  "name": "log-cli",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "MuYoungJeong <moo1323@naver.com>",
+  "homepage": "",
+  "license": "ISC",
+  "bin": {
+    "log-cli": "lib/log-cli.js"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "commander": "^8.1.0",
+    "log-core": "^1.0.0"
+  }
+}
